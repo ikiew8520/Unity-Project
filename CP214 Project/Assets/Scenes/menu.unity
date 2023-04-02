@@ -136,7 +136,6 @@ GameObject:
   - component: {fileID: 55567948}
   - component: {fileID: 55567947}
   - component: {fileID: 55567951}
-  - component: {fileID: 55567952}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -241,19 +240,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 55567946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f09601e55fb0ec4ba5982a201bcbf55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &55567952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55567946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1899c1d248db82b4798f270525fa8b4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bbc5ca0a6edd80449982621aac4f426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &198727181
@@ -716,7 +703,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 55567952}
+      - m_Target: {fileID: 55567951}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: GoToScene
         m_Mode: 5
@@ -1308,7 +1295,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 55567952}
+      - m_Target: {fileID: 55567951}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: QuitApp
         m_Mode: 1
@@ -1610,7 +1597,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 55567952}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: GoToScene
         m_Mode: 5
@@ -1760,7 +1747,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 55567952}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: GoToScene
         m_Mode: 5
@@ -1815,7 +1802,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 111742d556520ed478e8acef84659f65, type: 3}
   m_PrefabInstance: {fileID: 423925872}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1741006372
+--- !u!114 &1741006375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
